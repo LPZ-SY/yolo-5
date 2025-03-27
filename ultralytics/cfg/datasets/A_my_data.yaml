@@ -1,0 +1,16 @@
+## Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: F:/bbb_temp/31-shuaidao/falling_data 我改过
+#D:\yolo-fall_system\sysytem\lpz\falling_data
+#path: D:/yolo-fall_system/sysytem/qq_3045834499/falling_data
+path: D:/yolo-fall_system/sysytem/lpz/falling_data
+train: # train images (relative to 'path')  16551 images
+  - images/train
+val: # val images (relative to 'path')  4952 images
+  - images/val
+test: # test images (optional)
+  - images/test
+
+
+names:
+  [ '站立',
+    '摔倒',]
