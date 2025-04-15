@@ -2,9 +2,9 @@
 @Project ：ultralytics-8.2.77
 @File    ：start_single_detect.py
 @IDE     ：PyCharm
-@Author  ：
+@Author  ：吕佩哲
 @Description  ：用于文件夹格式的预测
-@Date    ：2024/8/15 15:15
+@Date    ：2025/3/2
 '''
 
 from ultralytics import YOLO

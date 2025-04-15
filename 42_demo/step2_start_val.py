@@ -4,18 +4,21 @@
 @Project ：ultralytics-8.2.77 
 @File    ：start_val.py
 @IDE     ：PyCharm 
-@Author  ：
+@Author  ：吕佩哲
 @Description  ：TODO 添加文件描述
-@Date    ：2024/8/15 15:15 
+@Date    ：2025/3/2
 '''
 from ultralytics import YOLO
 
 # 加载自己训练好的模型，填写相对于这个脚本的相对路径或者填写绝对路径均可
-model = YOLO("runs/yolov8n_pretrained/train/weights/best.pt")
+# runs\yolo11n-GhostConv\train4\weights\best.pt
+model = YOLO("runs/yolo11n-GhostConv/train4/weights/best.pt")
+# model = YOLO("runs/yolov8n_pretrained/train/weights/best.pt")
+# D:\yolo-fall_system\sysytem\lpz\yolo11-falling\42_demo\runs\yolo11n-GhostConv\train4\weights
 
 # 开始进行验证，验证的数据集为'A_my_data.yaml'，图像大小为640，批次大小为4，置信度分数为0.25，交并比的阈值为0.6，设备为0，关闭多线程（windows下使用多线程加载数据容易出现问题）
-validation_results = model.val(data='A_my_data.yaml', imgsz=640, batch=4, conf=0.25, iou=0.6, device="0", workers=0)
-
+validation_results = model.val(data='A_my_data.yaml', imgsz=640, batch=4, conf=0.25, iou=0.6, device="cpu", workers=0)
+# device="0"
 """验证可选参数
 Argument	Type	Default	   Description
 data	    str	    None	   Specifies the path to the dataset configuration file (e.g., coco8.yaml). This file includes paths to validation data, class names, and number of classes.

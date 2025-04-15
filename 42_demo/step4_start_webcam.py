@@ -4,9 +4,9 @@
 @Project ：ultralytics-8.2.77 
 @File    ：start_single_detect.py
 @IDE     ：PyCharm 
-@Author  ：
+@Author  ：吕佩哲
 @Description  ：TODO 添加文件描述
-@Date    ：2024/8/15 15:15 
+@Date    ：2025/3/2
 '''
 import cv2
 

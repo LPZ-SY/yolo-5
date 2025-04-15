@@ -4,9 +4,9 @@
 @Project ：step3_start_window_track.py 
 @File    ：web_demo.py
 @IDE     ：PyCharm 
-@Author  ：
+@Author  ：吕佩哲
 @Description  ：TODO 添加文件描述
-@Date    ：2024/12/11 20:25 
+@Date    ：2025/3/2
 '''
 import gradio as gr
 import PIL.Image as Image

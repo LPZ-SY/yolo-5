@@ -6,7 +6,7 @@
 @IDE     ：PyCharm 
 @Author  ：吕佩哲
 @Description  ：主要的图形化界面，本次图形化界面实现的主要技术为pyside6，pyside6是官方提供支持的
-@Date    ：2025/3
+@Date    ：2025/3/2
 '''
 import copy                      # 用于图像复制
 import os                        # 用于系统路径查找
@@ -24,7 +24,7 @@ from ultralytics import YOLO     # yolo核心算法
 
 # 常用的字符串常量
 WINDOW_TITLE ="Target detection system"            # 系统上方标题
-WELCOME_SENTENCE = "欢迎使用基于yolov1的摔倒检测系统"   # 欢迎的句子
+WELCOME_SENTENCE = "欢迎使用基于yolo11的摔倒检测系统"   # 欢迎的句子
 ICON_IMAGE = "images/UI/lufei.png"                 # 系统logo界面
 IMAGE_LEFT_INIT = "images/UI/up.jpeg"              # 图片检测界面初始化左侧图像
 IMAGE_RIGHT_INIT = "images/UI/right.jpeg"          # 图片检测界面初始化右侧图像

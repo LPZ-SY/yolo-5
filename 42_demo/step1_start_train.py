@@ -6,7 +6,7 @@
 @IDE     ：PyCharm 
 @Author  ：吕佩哲
 @Description  ：悬链主启动程序
-@Date    ：2024/8/15 15:14 
+@Date    ：2025/3/2
 '''
 import time
 from ultralytics import YOLO
